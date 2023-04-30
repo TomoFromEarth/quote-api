@@ -18,7 +18,7 @@ app.get("/api/quotes", (req, res, next) => {
 
   if (person) {
     const quotesByPerson = quotes.filter(
-      (quote) => quote.person.toLocaleLowerCase() === person.toLocaleLowerCase()
+      (quote) => quote.person.toLowerCase() === person.toLowerCase()
     );
     res.send({ quotes: quotesByPerson });
   } else {
