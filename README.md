@@ -53,10 +53,6 @@ The `POST /api/quotes` endpoint allows you to add a new quote to the dataset. Th
 
 `POST http://localhost:4001/api/quotes?quote=It always seems impossible until it's done.&person=Nelson Mandela`
 
-## License
-
-This project is licensed under the MIT license. See the LICENSE file for more information.
-
 ## Acknowledgements
 
 This project was created as part of the Codecademy Pro Back-End Engineer career path. Special thanks to Codecademy for providing the project specifications and starter code.
